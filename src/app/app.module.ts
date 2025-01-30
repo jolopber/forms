@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { BasicPageComponent } from './reactive/pages/basic-page/basic-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BasicPageComponent } from './reactive/pages/basic-page/basic-page.compo
     CommonModule,
     AppRoutingModule,
     SharedModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
